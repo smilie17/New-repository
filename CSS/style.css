@@ -1,0 +1,129 @@
+
+        body{
+            background-color: paleturquoise;
+            font-family: "Noto Looped Lao Bold";
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: lightpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 5px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: floralwhite;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: black;
+
+        }
+        h1{
+            color: beige;
+            font-family: "Noto Sans Buginese";
+            font-weight: bolder;
+            font-size: 40px;
+            display:flex;
+            justify-content: center;
+        }
+        p{
+            font-family: "a SansSerif";
+            font-size: 25px;
+            font-weight: normal;
+            color: lightpink;
+        }
+       /*div{*/
+       /*    background-color: aliceblue;*/
+       /*    color: white;*/
+       /*    height: 100px;*/
+       /*}*/
+        .one{
+            background-color: grey;
+            height: 40px;
+            color: black;
+        }
+        .three{
+            background-color: hotpink;
+            height: 90px;
+            color: blue;
+        }
+        #four{
+            background-color: black;
+            color: white;
+            height: 100px;
+        }
+        #five{
+            background-color: crimson;
+            height: 50px;
+            color: blue;
+        }
+
+.background-image{
+         background-image: url("https://media.istockphoto.com/id/1945084055/photo/in-er-lobby-male-doctor-greets-family-members.webp?s=2048x2048&w=is&k=20&c=FZo168I4-GHgyBx5pf_dRCgRjbpfe5txYtVRR9tM_Zs=");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin: 50px;
+    border-radius: 50px;
+     }
+     .about-content h1{
+         color: crimson;
+         text-align: center;
+         text-decoration-line: underline;
+     }
+     .about-content p{
+         text-align: center;
+
+     }
+     .about-content h2{
+         text-align: center;
+         text-decoration-line: underline;
+
+
+
+     }
+     .two{
+         list-style-type: none;
+         text-align: center;
+
+
+
+
+     }
+
+
+main{
+    display: flex;
+
+
+}
+div.image-one{
+    margin-right: 20px;
+
+}
+div.image-two{
+    margin-right: 20px;
+
+}
+div.image-three {
+    margin-right: 20px;
+}
+div.image-four{
+    margin-right: 20px;
+
+}
